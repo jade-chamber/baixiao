@@ -28,6 +28,7 @@
 
 <h4>Special thanks to:<br>
     BiosNod ・ <a href="https://github.com/BiosNod/Live-data-downloader">Live-data-downloader</a> <br>
+    Kinky Rooms ・ <a href="">live-hotfix-gi</a> <br>
 </h4>
 
 <h2>───</h2>
