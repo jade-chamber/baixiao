@@ -1,0 +1,10 @@
+{
+    "downloads": {
+        "_comment": "You shouldn't need to change this unless you know what you're doing.",
+        "base_url": "https://autopatchhk.yuanshen.com/"
+    },
+    "version": {
+        "_comment": "If you have a local versions file, put it in /data and change src to local.",
+        "src": "local"
+    }
+}

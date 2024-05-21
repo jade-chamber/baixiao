@@ -1,0 +1,128 @@
+{
+    "_branch": {
+        "full": {
+            "data": "",
+            "parts": 0
+        },
+        "hdiff": {
+            "info": {
+                "from": "",
+                "to": ""
+            },
+            "data": "",
+            "voice_packs": {
+                "zh-cn": "",
+                "en-us": "",
+                "ja-jp": "",
+                "ko-kr": ""
+            }
+        },
+        "resource_info": [
+            {
+                "res": {
+                    "version": 0,
+                    "suffix": ""
+                },
+                "client": {
+                    "version": 0,
+                    "suffix": ""
+                },
+                "silence": {
+                    "version": 0,
+                    "suffix": ""
+                }
+            }
+        ]
+    },
+    "1.0_live": {
+        "full": {
+            "data": "20200928_a9f631857c460585",
+            "parts": 0
+        },
+        "hdiff": {},
+        "resource_info": [
+            {
+                "res": {
+                    "version": 1284249,
+                    "suffix": "ba7ad33643"
+                },
+                "client": {
+                    "version": 1358691,
+                    "suffix": "52338ab3d4"
+                },
+                "silence": {
+                    "version": 1393824,
+                    "suffix": "52338ab3d4"
+                }
+            }
+        ]
+    },
+    "4.5_live": {
+        "full": {
+            "data": "20240301203033_RZSIny3hwJ5nq959",
+            "parts": 8
+            },
+        "hdiff": {
+            "info": {
+                "from": "4.4.0",
+                "to": "4.5.0"
+            },
+            "data": "game_4.4.0_4.5.0_hdiff_nodDY9LQAgruZ6Ns",
+            "voice_packs": {
+                "zh-cn": "zh-cn_4.4.0_4.5.0_hdiff_YmheEAnjvstCbGxJ",
+                "en-us": "en-us_4.4.0_4.5.0_hdiff_D3JK1CQZHt46IcBv",
+                "ja-jp": "ja-jp_4.4.0_4.5.0_hdiff_D16LijOxqwgfCSWa",
+                "ko-kr": "ko-kr_4.4.0_4.5.0_hdiff_v7HhnQibzTMAuO5B"
+            }
+        },
+        "resource_info": [
+            {
+                "res": {
+                    "version": 21321795,
+                    "suffix": "98f14fc88c"
+                }
+            },
+            {
+                "res": {
+                    "version": 21575220,
+                    "suffix": "2de9844a54"
+                },
+                "client": {
+                    "version": 21631304,
+                    "suffix": "127de5d897"
+                },
+                "silence": {
+                    "version": 21504262,
+                    "suffix": "83e77ece4f"
+                }
+            },
+            {
+                "client": {
+                    "version": 21892652,
+                    "suffix": "ca6bd22274"
+                },
+                "silence": {
+                    "version": 21858521,
+                    "suffix": "d339155f05"
+                }
+            }
+        ]
+    },
+    "4.6_live": {
+        "full": {
+            "data": "20240412191920_HThGUGlY3Gjy6AXP",
+            "parts": 6
+        },
+        "hdiff": {
+            "data": "game_4.5.0_4.6.0_hdiff_MyQqNZPJWOktACjI",
+            "voice_packs": {
+                "zh-cn": "zh-cn_4.5.0_4.6.0_hdiff_q8fZULgOsl1SoipB",
+                "en-us": "en-us_4.5.0_4.6.0_hdiff_aRk4uMi1H9OALJ7d",
+                "ja-jp": "ja-jp_4.5.0_4.6.0_hdiff_dNhr1mUeITOnZ76R",
+                "ko-kr": "ko-kr_4.5.0_4.6.0_hdiff_wrnM3Vumg5xSbKEa"
+            }
+        },
+        "version_info": [
+        ]
+    }
+}
