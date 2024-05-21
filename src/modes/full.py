@@ -12,8 +12,6 @@ class Full(Download):
     
 
     def _build_url(self, info):
-        #/client_app/download/pc_zip/20240412191920_HThGUGlY3Gjy6AXP/Audio_English(US)_4.6.0.zip
-        print(f"{self.config['downloads']['base_url']}/client_app/download/pc_zip/{info}")
         return f"{self.config['downloads']['base_url']}/client_app/download/pc_zip/{info}"
     
 
