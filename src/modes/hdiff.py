@@ -21,7 +21,7 @@ class Hdiff(Download):
         files.append({
             "name": f"{data}.zip",
             "url": self._build_url(f"{data}.zip"),
-            "path": os.path.join(self.fs.downloads, self.branch, "hdiff", f"{data}")
+            "path": os.path.join(self.fs.downloads, self.branch, "hdiff")
         })
 
         voice_pack_data = self.hdiff_info['voice_packs']
@@ -29,7 +29,7 @@ class Hdiff(Download):
             files.append({
                 "name": f"{voice_pack_data[language]}.zip",
                 "url": self._build_url(f"{voice_pack_data[language]}.zip"),
-                "path": os.path.join(self.fs.downloads, self.branch, "hdiff", "voice_pack", voice_pack_data[language])
+                "path": os.path.join(self.fs.downloads, self.branch, "hdiff", "voice_pack")
             })
         
         return self.download("multiprocess", files)
