@@ -1,7 +1,7 @@
 import datetime
 
 class Logger:
-    log_levels = ["debug", "info", "warn", "error", "critical", "download"]
+    log_levels = ["debug", "info", "warn", "error", "critical", "download", "success"]
 
     log_strings = {
         "debug": "dbg",
@@ -9,7 +9,8 @@ class Logger:
         "warn": "wrn",
         "error": "err",
         "critical": "crt",
-        "download": "dwn"
+        "download": "dwn",
+        "success": "scs"
     }
     
 
@@ -49,4 +50,11 @@ class Logger:
         else:
             level = self.log_strings[level]
 
-        print(f"{self._time()} | [{level}] @ {self._colorize(self.color, self.name)}: {message}")
+        string = f"{self._time()} | [{level}] @ {self._colorize(self.color, self.name)}: {message}"
+
+        if level not in ["dwn", "scs"]:
+            string += "\n"
+        else:
+            string += "\r"
+
+        print(string, end="")

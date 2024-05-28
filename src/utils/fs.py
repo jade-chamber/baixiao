@@ -26,3 +26,13 @@ class FS:
         else:
             # TODO: Download from url if not local.
             return {}
+    
+
+    def read_file(self, path) -> str:
+        with open(path, "r") as f:
+            return f.read()
+    
+
+    def read_lines(self, path) -> list:
+        with open(path, "r") as f:
+            return f.readlines()

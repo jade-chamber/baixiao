@@ -25,13 +25,16 @@ class Download:
             os.makedirs(file['path'])
         
         with requests.get(file['url'], stream=True) as r:
-            r.raise_for_status()
-            self.logger.log("download", f"Downloading: {file['name']}")
-            with open(f"{file['path']}/{file['name']}", "wb") as f:
-                for chunk in r.iter_content(chunk_size=1024):
-                    f.write(chunk)
-            
-            self.logger.log("download", f"Downloaded: {file['name']}")
+            if r.status_code == 200:
+                self.logger.log("download", f"Downloading: {file['name']}")
+                with open(f"{file['path']}/{file['name']}", "wb") as f:
+                    for chunk in r.iter_content(chunk_size=1024):
+                        f.write(chunk)
+                
+                self.logger.log("success", f"Downloaded: {file['name']}")
+            else:
+                self.logger.log("warn", f"Failed to download: {file['name']}")
+                return f"DownloadFailedCode{r.status_code}"
         
         return "Ok"
     
